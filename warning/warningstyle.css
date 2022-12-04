@@ -7,12 +7,17 @@ body {
 			text-align: center;
 	}
 			
-			a img:last-child {
-			display: none;  
-			}
-			a:hover img:last-child {
-			display: block;  
-			}
-			a:hover img:first-child {
-			display: none;  
-		}
+	.img {
+		position:absolute;
+	}
+	
+	.hover_img {
+		position:absolute;
+		top:0;
+		left:0;
+		display:none;
+	}
+	
+	.img:hover .hover_img {
+		display:inline;
+	}
