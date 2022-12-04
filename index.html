@@ -9,16 +9,14 @@
 			font-size: 40;
 			font-family: "Comic sans MS";
 			text-align: center;
-			}
-				.hover_img {
-				position: absolute;
-				top: 0;
-				left: 0;
-				display: none;
-			}
 			
-			.img:hover .hover_img {
-			display: inline;
+			. monitor {
+				width: 629px;
+				height: 480px;
+				background: ("images/warning/monitor_enter.png") no-repeat;
+				}
+			.monitor:hover {
+				background: ("images/warning/monitor_message.png") no-repeat;
 			}
 				
 		</style>
@@ -31,10 +29,7 @@
 		<img src="images/warning/monitor_enter.png" width="629" height="480" alt="click 2 enter">
 		</a>
 	<br>
-	<div class="img">
-	<img src="images/warning/monitor_enter.png">
-	<img src="images/warning/monitor_message.png" class="hover_img">
-	</div>
+	<div class="monitor"> </div>
 	<br><br>
 	<audio controls>
 		<source src="audio/warning.mp3" type="audio/mp3">
