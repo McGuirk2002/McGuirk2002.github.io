@@ -10,21 +10,17 @@ body {
 		
 	.img {
 		position:absolute;
-		margin-right: auto;
-		margin-right: auto;
 	}
 
 	
 	.hover_img {
 		position:absolute;
-		margin-right: auto;
-		margin-right: auto;
+		top:0;
+		left:0;
 		display:none;
 	}
 
 	
 	.img:hover .hover_img {
 		display:inline;
-		margin-right: auto;
-		margin-right: auto;
 	}
