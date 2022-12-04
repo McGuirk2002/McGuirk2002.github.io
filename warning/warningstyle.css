@@ -21,3 +21,7 @@ body {
 	.img:hover .hover_img {
 		display:inline;
 	}
+	
+	div {
+		text-align:center;
+	}
