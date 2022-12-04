@@ -21,3 +21,10 @@ body {
 	.img:hover .hover_img {
 		display:inline;
 	}
+	
+	.center {
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
+		width:50%;
+	}
