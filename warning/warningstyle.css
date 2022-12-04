@@ -8,19 +8,14 @@ body {
 	}
 		
 		
-	.img {
-		position:absolute;
+	.img{
+		background-image: url("warning/monitor_enter.png");
+		margin-left: auto;
+		margin-right: auto;
 	}
-
 	
-	.hover_img {
-		position:absolute;
-		top:0;
-		left:0;
-		display:none;
-	}
-
-	
-	.img:hover .hover_img {
-		display:inline;
+	.img:hover {
+		background-image: url("warning/monitor_message.png");
+		margin-left: auto;
+		margin-right: auto;
 	}
