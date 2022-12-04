@@ -24,3 +24,9 @@ body {
 	.img:hover .hover_img {
 		display:inline;
 	}
+	
+	div {
+		display:flex;
+		justify-content: center;
+		align-items: center;
+	}
