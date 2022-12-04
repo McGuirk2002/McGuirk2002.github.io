@@ -10,6 +10,8 @@ body {
 		
 	.img{
 		background-image: url("warning/monitor_enter.png");
+		width: 629px;
+		height:480px;
 		margin-left: auto;
 		margin-right: auto;
 	}
