@@ -8,14 +8,23 @@ body {
 	}
 		
 		
-	.img{
-		background-image: url("warning/monitor_enter.png");
+	.monitor {
 		width: 629px;
 		height:480px;
 		margin-left: auto;
 		margin-right: auto;
+		position: relative;
+		display: inline-block;
 	}
 	
-	.img:hover {
-		background-image: url("warning/monitor_message.png");
+	.monitor .hover_img {
+		display: none;
+		positon: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		z-index: 99;
+	}
+	
+	.monitor:hover .hover_img{
+		display: inline;
 	}
