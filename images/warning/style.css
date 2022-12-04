@@ -1,10 +1,11 @@
-	body {
-			background-image: url("images/warning/warning_tile.gif");
+body {
+	background-image: url("images/warning/warning_tile.gif");
 			color: #eedff1;
 			background-color: black;
 			font-size: 40;
 			font-family: "Comic sans MS";
 			text-align: center;
+	}
 			
 			a img:last-child {
 			display: none;  
