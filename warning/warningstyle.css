@@ -20,8 +20,6 @@ body {
 	.monitor .hover_img {
 		display: none;
 		position: absolute;
-		margin-left: auto;
-		margin-right: auto;
 		z-index: 99;
 	}
 	
