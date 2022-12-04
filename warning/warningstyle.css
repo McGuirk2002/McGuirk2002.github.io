@@ -11,8 +11,6 @@ body {
 	.monitor {
 		width: 629px;
 		height:480px;
-		margin-left: auto;
-		margin-right: auto;
 		position: relative;
 		display: inline-block;
 	}
@@ -20,6 +18,8 @@ body {
 	.monitor .hover_img {
 		display: none;
 		position: absolute;
+		top: 0;
+		left: 0;
 		z-index: 99;
 	}
 	
