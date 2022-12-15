@@ -17,9 +17,8 @@ body{
 		color: #fff;
 		font-size: 20px;
 		border: red 5px solid;
+		align-content: center;
 	}
-	
-	
 	
 	.grid-container-center {
 		display: grid;
@@ -32,6 +31,7 @@ body{
 		color: #fff;
 		font-size: 20px;
 		border: red 5px solid;
+		align-content: center;
 	}
 	
 	
