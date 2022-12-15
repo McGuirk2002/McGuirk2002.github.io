@@ -20,10 +20,9 @@ body{
 		max-width: 1500px;
 		margin: 100px auto;
 		padding: 10px;
-		display:grid;
+		display: grid;
 		grid-template-columns: 300px 900px, 300px;
-		
-	}
+		}
 	
 	.item{
 		background: steelblue;
