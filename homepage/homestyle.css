@@ -8,17 +8,14 @@ body{
 	}
 	.grid-container {
 		display: grid;
-		margin: 100px auto;
-		padding: 10px;
 		gap: 10px;
-		grid-template-columns: 300px 900px 300px;
+		grid-template-columns: 400px 850px 300px;
 		}
 	
 	.grid-container > div {
 		background: purple;
 		color: #fff;
 		font-size: 20px;
-		padding: 20px;
 		border: red 5px solid;
 	}
 	
