@@ -15,9 +15,10 @@ body{
 		grid-template-columns: 300px 900px, 300px;
 		}
 	
-	.item{
+	.grid-container > div {
 		background: steelblue;
 		color: #fff;
 		font-size: 20px;
 		padding: 20px;
 		border: skyblue 1px solid;
+	}
