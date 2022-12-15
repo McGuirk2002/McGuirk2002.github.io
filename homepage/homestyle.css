@@ -6,13 +6,28 @@ body{
 			font-family: "Comic sans MS";
 			text-align: center;
 	}
-	.grid-container {
+	.grid-container-top {
 		display: grid;
 		gap: 10px;
 		grid-template-columns: 400px 850px 300px;
 		}
 	
-	.grid-container > div {
+	.grid-container-top > div {
+		background: purple;
+		color: #fff;
+		font-size: 20px;
+		border: red 5px solid;
+	}
+	
+	
+	
+	.grid-container-bottom {
+		display: grid;
+		gap: 10px;
+		grid-template-columns: 200px 850px 300px;
+		}
+	
+	.grid-container-bottom > div {
 		background: purple;
 		color: #fff;
 		font-size: 20px;
@@ -31,6 +46,6 @@ body{
 	}
 	
 	.item5{
-		grid-row-start: 3;
-		grid-row-end: 5;
+		grid-row-start: 1;
+		grid-row-end: 3;
 	}
