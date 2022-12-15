@@ -17,7 +17,17 @@ body{
 	}
 	
 	.grid-container {
+		max-width: 1500px;
+		margin: 100px auto;
+		padding: 10px;
 		display:grid;
 		grid-template-columns: 300px 900px, 300px;
 		
 	}
+	
+	.item{
+		background: steelblue;
+		color: #fff;
+		font-size: 20px;
+		padding: 20px;
+		border: skyblue 1px solid;
