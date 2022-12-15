@@ -7,20 +7,19 @@ body{
 			text-align: center;
 	}
 	.grid-container {
-		max-width: 1500px;
+		display: grid;
 		margin: 100px auto;
 		padding: 10px;
-		display: grid;
-		gap: 50px;
-		grid-template-columns: 300px 900px, 300px;
+		gap: 10px;
+		grid-template-columns: auto auto auto;
 		}
 	
 	.grid-container > div {
-		background: steelblue;
+		background: purple;
 		color: #fff;
 		font-size: 20px;
 		padding: 20px;
-		border: skyblue 1px solid;
+		border: red 5px solid;
 	}
 	
 	
