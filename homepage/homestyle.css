@@ -24,7 +24,7 @@ body{
 	.grid-container-center {
 		display: grid;
 		gap: 10px;
-		grid-template-columns: 200px 850px 300px;
+		grid-template-columns: 300px 850px 300px;
 		}
 	
 	.grid-container-center > div {
