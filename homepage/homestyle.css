@@ -9,7 +9,7 @@ body{
 	.grid-container-top {
 		display: grid;
 		gap: 10px;
-		grid-template-columns: 420px 750px 275px;
+		grid-template-columns: 420px 800px 300px;
 		align-content: center;
 		}
 	
