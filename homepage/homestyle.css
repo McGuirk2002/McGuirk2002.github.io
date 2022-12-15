@@ -10,6 +10,7 @@ body{
 		display: grid;
 		gap: 10px;
 		grid-template-columns: 400px 850px 300px;
+		align-content: center;
 		}
 	
 	.grid-container-top > div {
@@ -17,13 +18,13 @@ body{
 		color: #fff;
 		font-size: 20px;
 		border: red 5px solid;
-		align-content: center;
 	}
 	
 	.grid-container-center {
 		display: grid;
 		gap: 10px;
 		grid-template-columns: 250px 850px 300px;
+		align-content: center;
 		}
 	
 	.grid-container-center > div {
@@ -31,7 +32,7 @@ body{
 		color: #fff;
 		font-size: 20px;
 		border: red 5px solid;
-		align-content: center;
+
 	}
 	
 	
