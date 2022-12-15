@@ -6,3 +6,12 @@ body{
 			font-family: "Comic sans MS";
 			text-align: center;
 	}
+	
+	.container {
+			max-width: 1500px;
+			margin: 100px auto;
+			padding: 10px;
+			display: gird;
+			grid-template-columns: 500px 500px 500px;
+			gap: 10px;
+	}
