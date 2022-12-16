@@ -10,33 +10,31 @@
 		
 		<div class="grid-container-top">
 			<div class="item1"> <a href="https://wiredwormz.quest/home" alt="Site Logo" > <img src="homepage/logo.png"> </a>  </div>
-			<div class="item2"> <script type"text/javascript">
-
-			var imlocation = "homepage/advert/";
-			var currentdate = 0;
-			var image_number = 0;
-			function ImageArray (n) {
-			this.length = n;
-			for (var i =1; i <= n; i++) {
-			this[i] = ' '
+			<div class="item2"> <a href="https://wiredwormz.quest/warning" alt="Advertisement" title="CLICKHERECLICKHERECLICKHERE" > <img src="homepage/advert/invisiblelink.png" > </a>
+			<script type"text/javascript">
+				var imlocation = "homepage/advert/";
+				var currentdate = 0;
+				var image_number = 0;
+				function ImageArray (n) {
+				this.length = n;
+				for (var i =1; i <= n; i++) {
+				this[i] = ' '
+				}
 			}
-		}
- image = new ImageArray(3)
- image[0] = 'rosemary.png'
- image[1] = 'melee.png'
- image[2] = 'jungle.png'
+			image = new ImageArray(3)
+			image[0] = 'rosemary.png'
+			image[1] = 'melee.png'
+			image[2] = 'jungle.png'
  
- var rand = 60/image.length
- function randomimage() {
-    currentdate = new Date()
-    image_number = currentdate.getSeconds()
-    image_number = Math.floor(image_number/rand)
-    return(image[image_number])
- }
- document.write("<img src='" + imlocation + randomimage()+ "'>");
-</script>
-			
-			</div>
+		var rand = 60/image.length
+		function randomimage() {
+		currentdate = new Date()
+		image_number = currentdate.getSeconds()
+		image_number = Math.floor(image_number/rand)
+		return(image[image_number])
+		}
+			document.write("<img src='" + imlocation + randomimage()+ "'>");
+		</script> </div>
 		<!--	
 			<a href="https://wiredwormz.quest/warning" alt="Advertisement" title="CLICKHERECLICKHERECLICKHERE" > <img src="homepage/advert/rosemary.png" > </a>
 			-->
