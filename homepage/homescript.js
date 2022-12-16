@@ -1,22 +1,16 @@
-var imlocation = "advert/";
-var currentdate = 0;
-var image_mumber = 0;
-function ImageArray (n) {
-	this.length = n;
-	for (var i =1; i <= n; i++) {
-	this[i] = ' '
-	}
-	
-}
-image = new ImageArray(13)
-image[0] = 'brawl.png'
-image[1] = 'doll.png'
-image[2] = 'pizza.png'
-var rand = 60/image.length
-function randomimage() {
-	currentdate = new Date()
-	image_number = current.date.getSeconds()
-	image_number = Math.floor(image_number/rand)
-	return(image[image_number])
-}
-document.write("img src'" + imlocation + randomimage()+ "'>");
+
+// define your images here
+var images = [
+ "https://cinni.neocities.org/images/creatures/cats/cute_cat6.gif",
+  "https://cinni.neocities.org/images/creatures/cats/cute_cat4.gif",
+  "https://cinni.neocities.org/images/creatures/cats/cute_cat2.gif"
+];
+
+// this chooses a random number from all available image indices
+var randomImage = images[Math.floor(Math.random() * images.length)];
+console.log(randomImage);
+// make the URL into a proper image tag
+var image = "<img src='" + randomImage + "'>";
+// append to the div
+document.getElementById("img-load").innerHTML = image;
+
