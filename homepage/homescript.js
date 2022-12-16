@@ -1,10 +1,12 @@
-var description = [
+var images = [
 	"advert/doll.png",
 	"advert/brawl.png",
 	"advert/pizza.png"
 	];
 	
-var size = description.length
-var x = Math.floor(size*Math.random())
+var randomImage = images[Math.floor(Math.random() * images.length)];
+console.log(randomImage);
 
-document.getElementById('image').src=description[x];
+var image = "<img src= '" + randomImage + "'>";
+
+document.getElementById("img-load").innerHTML = image;
