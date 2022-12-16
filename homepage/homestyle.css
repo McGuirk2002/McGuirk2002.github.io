@@ -59,9 +59,9 @@ body{
  height: 50px;	
  overflow: hidden;
  position: relative;
- background: yellow;
- color: orange;
- border: 1px solid orange;
+ background: black;
+ color: pink;
+ border: 0px;
 }
 .scroll-left p {
  position: absolute;
@@ -73,7 +73,7 @@ body{
  /* Starting position */
  transform:translateX(100%);
  /* Apply animation to this element */
- animation: scroll-left 15s linear infinite;
+ animation: scroll-left 10s linear infinite;
 }
 /* Move it (define the animation) */
 @keyframes scroll-left {
