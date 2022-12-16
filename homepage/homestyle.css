@@ -1,7 +1,8 @@
 body{
 	background-image: url("background.png"), url("wormz_tile.png");
-	background-positon: center top, left top;
+	background-position: center top, left top;
 	background-repeat: no-repeat, repeat;
+	
 		color: #eedff1;
 			background-color: black;
 			font-size: 20;
