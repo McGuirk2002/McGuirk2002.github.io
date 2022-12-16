@@ -14,7 +14,6 @@ body{
 		}
 	
 	.grid-container-top > div {
-		background: purple;
 		color: #fff;
 		font-size: 20px;
 		border: 0px;
@@ -28,7 +27,6 @@ body{
 		}
 	
 	.grid-container-center > div {
-		background: purple;
 		color: #fff;
 		font-size: 20px;
 		border: 0px;
