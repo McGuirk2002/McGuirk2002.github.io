@@ -67,14 +67,13 @@ body{
  position: absolute;
  width: 100%;
  height: 100%;
- font-size:20px
  margin: 0;
  line-height: 50px;
  text-align: center;
  /* Starting position */
  transform:translateX(100%);
  /* Apply animation to this element */
- animation: scroll-left 25s linear infinite;
+ animation: scroll-left 20s linear infinite;
 }
 /* Move it (define the animation) */
 @keyframes scroll-left {
