@@ -1,6 +1,6 @@
 body{
 	background-image: url("background.png"), url("wormz_tile.png");
-	bakcground-positon: left top, left top;
+	bakcground-positon: center, left top;
 	background-repeat: no-repeat, repeat;
 		color: #eedff1;
 			background-color: black;
