@@ -55,12 +55,12 @@ body{
 	
 	
 	.scroll-left {
- height: 100px;	
+ height: 50px;	
  overflow: hidden;
  position: relative;
  background: black;
  color: #da83ca;
- font-size: 30px
+ font-size: 30px;
  border: 0px;
 }
 .scroll-left p {
