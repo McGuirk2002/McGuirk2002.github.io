@@ -42,7 +42,7 @@ body{
 	.item4 {
 		grid-column-start: 2;
 		grid-column-end: 4;
-		margin-left: 20px;
+		margin-left: 50px;
 	}
 	
 	.item5{
