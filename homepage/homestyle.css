@@ -10,7 +10,7 @@ body{
 		display: grid;
 		gap: 10px;
 		grid-template-columns: 420px 800px 300px;
-		align-content: center;
+		justify-content: center;
 		}
 	
 	.grid-container-top > div {
@@ -24,7 +24,7 @@ body{
 		display: grid;
 		gap: 10px;
 		grid-template-columns: 250px 850px 300px;
-		align-content: center;
+		justify-content: center;
 		}
 	
 	.grid-container-center > div {
