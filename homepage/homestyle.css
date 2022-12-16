@@ -40,13 +40,13 @@ body{
 	}
 	
 	.item2 {
-		padding-top: 27px;
+		padding-top: 30px;
 	}
 	
 	.item4 {
 		grid-column-start: 2;
 		grid-column-end: 4;
-		margin-left: 70px;
+		margin-left: 75px;
 	}
 	
 	.item5{
