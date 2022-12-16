@@ -1,42 +1,50 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>xX Wired Wormz Xx</title>
-	<link rel="stylesheet" href="homepage/homestyle.css">
-	<link rel="icon" href="images/eye_icon.png">
+	
+	<title>xX Wired Wormz Xx</title>
+
+		<link rel="stylesheet" href="homepage/homestyle.css">
+		<link rel="icon" href="images/eye_icon.png">
+
 </head>
-<body>
+	<body>
+	
 		<!-- Homepage Grid Layout -->
-		<br><br><br>
+		<br><br><br>	
 		<div class="grid-container-top">
+			
 			<div class="item1"> <a href="https://wiredwormz.quest/home" alt="Site Logo" > <img src="homepage/logo.png"> </a>  </div>
-			<div class="item2"> <script type"text/javascript">
-				var imlocation = "homepage/advert/";
-				var currentdate = 0;
-				var image_number = 0;
-				function ImageArray (n) {
-				this.length = n;
-				for (var i =1; i <= n; i++) {
-				this[i] = ' '
+			
+			<div class="item2">
+				<script type"text/javascript">
+					var imlocation = "homepage/advert/";
+					var currentdate = 0;
+					var image_number = 0;
+					function ImageArray (n) {
+					this.length = n;
+					for (var i =1; i <= n; i++) {
+					this[i] = ' '
+					}
 				}
-			}
-			image = new ImageArray(3)
-			image[0] = 'rosemary.png'
-			image[1] = 'melee.png'
-			image[2] = 'jungle.png'
+				image = new ImageArray(3)
+				image[0] = 'rosemary.png'
+				image[1] = 'melee.png'
+				image[2] = 'jungle.png'
  
-		var rand = 60/image.length
-		function randomimage() {
-		currentdate = new Date()
-		image_number = currentdate.getSeconds()
-		image_number = Math.floor(image_number/rand)
-		return(image[image_number])
-		}
-			document.write("<img src='" + imlocation + randomimage()+ "'>");
+				var rand = 60/image.length
+				function randomimage() {
+				currentdate = new Date()
+				image_number = currentdate.getSeconds()
+				image_number = Math.floor(image_number/rand)
+				return(image[image_number])
+				}
+				document.write("<img src='" + imlocation + randomimage()+ "'>");
 			</script>
 		</div>
 			
 			<div class="item3"> <img src="homepage/acid.gif" width="228" height="130" style= "margin-top: 30px" /> </div>
+			
 			<div class="item4"> <div class="scroll-left"> <p>
 			
 			Welcome in, Websurferz! You will never escape :) Isn't this oh so fun?
@@ -45,11 +53,15 @@
 		</div>
 		
 		<div class="grid-container-center">
-			<div class="item5"> <img src="homepage/sidebar.png" style="margin-left: 20px" /> </div>
+		
+			<div class="item5"> <img src="homepage/sidebar.png" usemap="sidebarmap" style="margin-left: 20px" /> </div>
+			
 			<div class="item6"> <iframe width="725" height="407" style="margin: 175px 0px 0px 20px" src="https://www.youtube.com/embed/35cJcBdf3V0" title="Video Player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+			
 			<div class="item7"> <a href="https://wiredwormz.quest/tricksterharvest" alt="Continue to External Site ?" > <img src="homepage/trickster.png" style="margin: 80px 0px 0px 150px" > </a> 
 			<a href="https://wiredwormz.quest/petz" alt="Cute Petz" Title="Get ready for something adorable !!" > <img src="homepage/petz.png" style="margin: 110px 0px 0px 150px" width="331px" height="auto" > </a> </div>
-			<div class="item8"> <img src="homepage/sublayerz.png" /> </div>
+			
+			<div class="item8"> <img src="homepage/sublayerz.png" usemap="layermap" /> </div>
 		</div>
 			
 		<!-- F O O T E R -->
@@ -59,5 +71,36 @@
 		<br><br>
 		<a href="https://wiredwormz.quest/">WIRED WORMZ (C) 2002-2023<a/>
 		<br>
+		
+		
+		<!-- M A P S -->
+		
+		<map name="sidebarmap">
+			<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+			<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+			<!-- #$-:Please do not edit lines starting with "#$" -->
+			<!-- #$VERSION:2.3 -->
+			<!-- #$AUTHOR:Simonne Louise -->
+		<area shape="rect" coords="22,18,193,207" href="https://wiredwormz.quest/videoz" />
+		<area shape="rect" coords="19,229,198,432" href="https://wiredwormz.quest/comix" />
+		<area shape="rect" coords="19,448,225,620" href="https://wiredwormz.quest/artwork" />
+		<area shape="rect" coords="23,641,205,820" href="https://wiredwormz.quest/audio" />
+		<area shape="rect" coords="24,847,212,1035" href="https://wiredwormz.quest/connect" />
+		<area shape="rect" coords="20,1060,195,1247" href="https://wiredwormz.quest/info" />
+		</map>
+		
+		
+		<map name="layermap">
+			<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+			<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+			<!-- #$-:Please do not edit lines starting with "#$" -->
+			<!-- #$VERSION:2.3 -->
+			<!-- #$AUTHOR:Simonne Louise -->
+		<area shape="rect" coords="5,10,767,226" href="https://wiredwormz.quest/weblog" />
+		<area shape="rect" coords="3,325,769,548" href="https://wiredwormz.quest/shop" />
+		<area shape="rect" coords="7,631,771,859" href="https://wiredwormz.quest/vivian" />
+		<area shape="rect" coords="2,944,766,1161" href="https://wiredwormz.quest/admin" />
+		</map>
+		
 	</body>
 </html>
