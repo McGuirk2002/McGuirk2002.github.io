@@ -32,6 +32,31 @@
 		<br><br>
 		<a href="https://wiredwormz.quest/">WIRED WORMZ (C) 2002-2023<a/>
 		<br>
+		<script type"text/javascript">
+
+			var imlocation = "advert/";
+			var currentdate = 0;
+			var image_number = 0;
+			function ImageArray (n) {
+			this.length = n;
+			for (var i =1; i <= n; i++) {
+			this[i] = ' '
+			}
+		}
+ image = new ImageArray(13)
+ image[0] = 'brawl.png'
+ image[1] = 'doll.png'
+ image[2] = 'pizza.png'
+ 
+ var rand = 60/image.length
+ function randomimage() {
+    currentdate = new Date()
+    image_number = currentdate.getSeconds()
+    image_number = Math.floor(image_number/rand)
+    return(image[image_number])
+ }
+ document.write("<img src='" + imlocation + randomimage()+ "'>");
+</script>
 		
 
 		<!-- O L D  T A B L E
