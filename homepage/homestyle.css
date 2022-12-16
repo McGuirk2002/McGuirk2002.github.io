@@ -54,6 +54,12 @@ body{
 	}
 	
 	
+	.item8{
+		grid-row-start: 2;
+		grid-row-end: 4;
+		padding-top: 25px;
+	}
+	
 	
 	.scroll-left {
  height: 50px;	
