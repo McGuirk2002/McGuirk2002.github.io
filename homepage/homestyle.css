@@ -3,6 +3,7 @@ body{
 	background-position: center top, left top;
 	background-repeat: no-repeat, repeat;
 	background-size: 1439px 2620px, auto;
+	background-attachment: local, fixed;
 	
 		color: #eedff1;
 			background-color: black;
