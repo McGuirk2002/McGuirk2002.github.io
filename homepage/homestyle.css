@@ -14,7 +14,7 @@ body{
 	.grid-container-top {
 		display: grid;
 		gap: 10px;
-		grid-template-columns: 420px 800px 300px;
+		grid-template-columns: 370px 750px 250px;
 		justify-content: center;
 		}
 	
@@ -27,7 +27,7 @@ body{
 	.grid-container-center {
 		display: grid;
 		gap: 10px;
-		grid-template-columns: 250px 850px 300px;
+		grid-template-columns: 200px 800px 250px;
 		justify-content: center;
 		}
 	
@@ -64,7 +64,7 @@ body{
 	
 	.scroll-left {
 height: 50px;
-width: 1000px; 
+width: 950px; 
 overflow: hidden;
 position: relative;
 background: black;
