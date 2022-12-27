@@ -14,7 +14,7 @@ body{
 	.grid-container-top {
 		display: grid;
 		gap: 10px;
-		grid-template-columns: 340px 720px 220px;
+		grid-template-columns: 340px 610px 200px;
 		justify-content: center;
 		}
 	
@@ -27,7 +27,7 @@ body{
 	.grid-container-center {
 		display: grid;
 		gap: 10px;
-		grid-template-columns: 170px 770px 220px;
+		grid-template-columns: 160px 750px 250px;
 		justify-content: center;
 		}
 	
