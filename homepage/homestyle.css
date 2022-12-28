@@ -27,7 +27,7 @@ body{
 	.grid-container-center {
 		display: grid;
 		gap: 10px;
-		grid-template-columns: 170px 700px 250px;
+		grid-template-columns: 170px 600px 250px;
 		justify-content: center;
 		}
 	
