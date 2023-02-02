@@ -10,8 +10,21 @@ body{
 			font-size: 20;
 			font-family: "Comic sans MS";
 			text-align: center;
-			
-	.center {
-		margin-left:auto;
-		margin-right:auto;
+	}
+	
+	.grid-container-top {
+		display: grid;
+		gap: 10px;
+		grid-template-columns: 290px 580px;
+		justify-content: center;
+		}
+		
+	.item1 {
+		grid-row-start: 1;
+		grid-row-end: 1;
+	}
+	
+	.item2 {
+		grid-row-start:2 ;
+		grid-row-end:2;
 	}
