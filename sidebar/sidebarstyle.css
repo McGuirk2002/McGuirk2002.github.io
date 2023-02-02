@@ -15,7 +15,7 @@ body{
 	.grid-container-top {
 		display: grid;
 		gap: 10px;
-		grid-template-columns: 290px 580px;
+		grid-template-columns: 2000px;
 		justify-content: center;
 		}
 		
