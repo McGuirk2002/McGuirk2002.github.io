@@ -11,3 +11,15 @@ body{
 			font-family: "Comic sans MS";
 			text-align: center;
 	}
+	
+	.column {
+  float: left;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
