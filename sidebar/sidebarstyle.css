@@ -18,13 +18,3 @@ body{
 		grid-template-columns: 400px 2000px;
 		justify-content: center;
 		}
-		
-	.item1 {
-		grid-column-start: 1;
-		grid-column-end: 1;
-	}
-	
-	.item2 {
-		grid-column-start:2 ;
-		grid-column-end:2;
-	}
