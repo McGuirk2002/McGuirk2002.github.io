@@ -11,25 +11,3 @@ body{
 			font-family: "Comic sans MS";
 			text-align: center;
 	}
-	
-	.grid-container {
-		display: grid;
-		gap: 10px;
-		grid-template-columns: 200px 2000px;
-		justify-content: center;
-		}
-		
-	.grid-container > div {
-		color: #fff;
-		font-size: 20px;
-		border: 0px;
-	}
-	
-	
-	.item1 {
-		padding-right: 20px;
-	}
-	
-	.item2 {
-		padding-top: 0px;
-	}
