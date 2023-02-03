@@ -18,3 +18,18 @@ body{
 		grid-template-columns: 400px 2000px;
 		justify-content: center;
 		}
+		
+	.grid-container > div {
+		color: #fff;
+		font-size: 20px;
+		border: 0px;
+	}
+	
+	
+	.item1 {
+		padding-right: 20px;
+	}
+	
+	.item2 {
+		padding-top: 0px;
+	}
