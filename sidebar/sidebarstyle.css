@@ -12,15 +12,31 @@ body{
 			text-align: center;
 	}
 	
-	.column {
-  float: left;
-  margin: auto;
-}
-
-.left {
-  width: 25%;
-}
-
-.right {
-  width: 75%;
-}
+	
+	.header{
+		display: grid;
+		gap:10px;
+		grid-template-columns:300px 700px;
+		justify-content:center;
+	}
+		
+	
+	.header > div{
+			color: #fff;
+		font-size: 20px;
+		border: 0px;
+	}
+	
+	
+	.content{
+		display: grid;
+		gap:10px;
+		grid-template-columns:1100px;
+		justify-content:center;
+	}
+	
+	.connect > div{
+			color: #fff;
+		font-size: 20px;
+		border: 0px;
+	}
