@@ -1,0 +1,42 @@
+body{
+	background-image: url("wormz_tile.png");
+	background-position: left top;
+	background-repeat: repeat;
+	background-size: auto;
+	background-attachment: fixed;
+	
+		color: #eedff1;
+			background-color: black;
+			font-size: 20;
+			font-family: "Comic sans MS";
+			text-align: center;
+	}
+	
+	
+	.header{
+		display: grid;
+		gap:5px;
+		grid-template-columns:250px 605px;
+		justify-content:center;
+	}
+		
+	
+	.header > div{
+			color: #fff;
+		font-size: 20px;
+		border: 0px;
+	}
+	
+	
+	.content{
+		display: grid;
+		gap:10px;
+		grid-template-columns:1100px;
+		justify-content:center;
+	}
+	
+	.content > div{
+			color: #fff;
+		font-size: 20px;
+		border: 0px;
+	}
