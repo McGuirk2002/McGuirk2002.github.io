@@ -95,7 +95,7 @@ body{
 		grid-column-start: 2;
 		grid-column-end:3 ;
 		position:relative;
-		padding-bottom: 5000px;
+		padding-top: 5000px;
 	}
 	
 	.scroll-left {
