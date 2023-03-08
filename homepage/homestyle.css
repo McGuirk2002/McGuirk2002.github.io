@@ -93,6 +93,7 @@ body{
 	.item9 {
 		grid-column-start: 2;
 		grid-column-end:3 ;
+		position:absolute;
 	}
 	
 	.scroll-left {
