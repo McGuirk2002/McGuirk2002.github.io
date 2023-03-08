@@ -1,5 +1,5 @@
 body{
-	background-image: url("monitor3.png"), url("wormz_tile.png");
+	background-image: url("monitor.png"), url("wormz_tile.png");
 	background-position: center top, left top;
 	background-repeat: no-repeat, repeat;
 	background-size: 1220px 2074px, auto;
