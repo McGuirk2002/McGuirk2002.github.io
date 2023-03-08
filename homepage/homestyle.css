@@ -90,6 +90,10 @@ body{
 		grid-row-end:3 ;
 	}
 	
+	.item9 {
+		grid-row-start: 2;
+		grid-row-end:3 ;
+	
 	.scroll-left {
 height: 42px;
 width: 690px; 
