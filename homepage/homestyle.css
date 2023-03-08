@@ -1,5 +1,5 @@
 body{
-	background-image: url("monitor.png"), url("wormz_tile.png");
+	background-image: url("monitor2.png"), url("wormz_tile.png");
 	background-position: center top, left top;
 	background-repeat: no-repeat, repeat;
 	background-size: 1220px 2074px, auto;
@@ -65,6 +65,25 @@ body{
 		padding-bottom: 695px;
 	}
 	
+	
+	.item6 {
+		width: 896px;
+		height:634px;
+		position: relative;
+		display: inline-block;
+	}
+	
+	.item6 .hover_img {
+		display: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 99;
+	}
+	
+	.item6:hover .hover_img{
+		display: inline;
+	}
 	
 	.scroll-left {
 height: 42px;
