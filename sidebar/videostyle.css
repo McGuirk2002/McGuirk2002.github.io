@@ -1,9 +1,9 @@
 body{
-	background-image: url("wormz_tile.png");
-	background-position: left top;
-	background-repeat: repeat;
-	background-size: auto;
-	background-attachment: fixed;
+	background-image: url("sidebar/videomonitor.png"), url("wormz_tile.png");
+	background-position: center top, left top;
+	background-repeat: no-repeat, repeat;
+	background-size: 1220px 2074px, auto;
+	background-attachment: local, fixed;
 	
 		color: #eedff1;
 			background-color: black;
