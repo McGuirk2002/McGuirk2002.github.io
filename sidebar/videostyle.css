@@ -2,7 +2,7 @@ body{
 	background-image: url("videomonitor.png"), url("wormz_tile.png");
 	background-position: center top, left top;
 	background-repeat: no-repeat, repeat;
-	background-size: 1175px 1674px, auto;
+	background-size: 1180px 1674px, auto;
 	background-attachment: local, fixed;
 	
 		color: #eedff1;
