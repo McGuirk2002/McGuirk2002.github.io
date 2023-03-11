@@ -40,3 +40,17 @@ body{
 		font-size: 20px;
 		border: 0px;
 	}
+	
+	
+	.subcontent{
+		display: grid;
+		gap:10px;
+		grid-template-columns:500px 500px;
+		justify-content: center;
+	}
+	
+	.subcontent{
+		color: #fff;
+		font-size: 20px;
+		border: 0px;
+	}
