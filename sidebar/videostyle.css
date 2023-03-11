@@ -45,8 +45,7 @@ body{
 	.item5 {
 		padding-top:20px;
 		padding-left:40px;
-		width:100px;
-		height:100px;
+		max-width:20%;
 	}
 	
 	.subcontent{
