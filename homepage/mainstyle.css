@@ -11,3 +11,39 @@ body{
 			font-family: "Comic Sans";
 			text-align: center;
 	}
+	
+	
+	
+	
+	
+	.scroll-left {
+height: 42px;
+width: 690px; 
+overflow: hidden;
+position: relative;
+background: black;
+color: #da83ca;
+font-size: 24px;
+border: 0px;
+}
+.scroll-left p {
+position: absolute;
+margin:0px;
+width: 100%;
+height: 100%;
+line-height: 42px;
+text-align: center;
+/* Starting position */
+transform:translateX(100%);
+/* Apply animation to this element */
+animation: scroll-left 20s linear infinite;
+}
+/* Move it (define the animation) */
+@keyframes scroll-left {
+ 0%   {
+ transform: translateX(100%); 		
+ }
+ 100% {
+ transform: translateX(-100%); 
+ }
+}
