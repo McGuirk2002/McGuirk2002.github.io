@@ -50,6 +50,11 @@ body{
 		grid-row-end: 3;
 	}
 	
+	.item 6 {
+		grid-row-start: 1;
+		grid-row-end: 3;
+	}
+	
 	
 	.scroll-left {
 height: 42px;
