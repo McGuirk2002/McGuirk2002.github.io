@@ -15,7 +15,7 @@ body{
 	.grid-container {
 		display: grid;
 		gap: 10px;
-		grid-template-columns: 200px 400px 200px;
+		grid-template-columns: 230px 450px 230px;
 		justify-content: center;
 		}
 	
@@ -34,6 +34,10 @@ body{
 	.item3 {
 		grid-row-start: 2;
 		grid-row-end: 3;
+	}
+	.item4{
+		grid-column-start:1;
+		grid-row-start:3;
 	}
 	
 	
