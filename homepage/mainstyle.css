@@ -50,9 +50,13 @@ body{
 		grid-row-end: 3;
 	}
 	
-	.item 6 {
+	.item6 {
 		grid-row-start: 1;
 		grid-row-end: 3;
+	}
+	.item7 {
+		grid-row-start:2;
+		grid-row-end:3;
 	}
 	
 	
