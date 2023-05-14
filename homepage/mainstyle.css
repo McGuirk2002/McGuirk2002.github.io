@@ -43,6 +43,7 @@ body{
 	.item1 {
 		grid-row-start: 1;
 		grid-row-end: 2;
+		padding-bottom:25px;
 	}
 	
 	.item3 {
