@@ -12,8 +12,24 @@ body{
 			text-align: center;
 	}
 	
+	.grid-container {
+		display: grid;
+		gap: 10px;
+		grid-template-columns: 200px 400px 200px;
+		justify-content: center;
+		}
+	
+	.grid-container > div {
+		color: #fff;
+		font-size: 20px;
+		border: 0px;
+	}
 	
 	
+	.item1 {
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
 	
 	
 	.scroll-left {
