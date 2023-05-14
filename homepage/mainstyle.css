@@ -40,6 +40,11 @@ body{
 		grid-row-end:3;
 	}
 	
+	.item4{
+		grid-column-start:1;
+		grid-row-start: 3;
+	}
+	
 	
 	.scroll-left {
 height: 42px;
