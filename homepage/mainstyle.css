@@ -59,6 +59,9 @@ body{
 		grid-row-start:2;
 		grid-row-end:3;
 	}
+	.item9 {
+		grid-column-start:2;
+	}
 	
 	
 	.scroll-left {
